@@ -7,22 +7,22 @@
 
 @font-face { 
     font-family: 'Molde_Semiexpanded_regular';
-    src: url(fonts/Molde-SemiExpanded-Regular.ttf) format('truetype');
+    src: url(/fonts/Molde-SemiExpanded-Regular.ttf) format('truetype');
 
 }
 
 @font-face { 
     font-family: 'Molde_Semiexpanded_ultralight';
-    src: url(fonts/Molde-SemiExpanded-UltraLight.ttf) format('truetype');
+    src: url(/fonts/Molde-SemiExpanded-UltraLight.ttf) format('truetype');
 
 }
 
 @font-face { 
     font-family: 'Molde_Semiexpanded_Medium';
-    src: url(fonts/Molde-SemiExpanded-Medium.ttf) format('truetype');
-
+    src: url(portfolio/fonts/Molde-SemiExpanded-Medium.ttf) format('truetype');
 }
-
+/*DESKTOP*/
+@media (min-width: 1200px) {
 /*GENERAL*/
 h2 {
     font-size: 32px;
@@ -167,4 +167,22 @@ nav li a:hover {
   .contact-form input[type=submit]:hover {
     background-color: yellow;
   }
-  
+}
+
+/*LAPTOP*/
+@media (min-width: 900px) {
+
+
+}
+
+/*TABLET*/
+@media (min-width: 600px) {
+
+
+}
+
+/*MOBILE*/
+@media (max-width: 599px) {
+
+
+}
