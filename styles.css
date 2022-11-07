@@ -7,19 +7,19 @@
 
 @font-face { 
     font-family: 'Molde_Semiexpanded_regular';
-    src: url(/fonts/Molde-SemiExpanded-Regular.ttf) format('truetype');
+    src: url(Fonts/Molde-SemiExpanded-Regular.ttf) format('truetype');
 
 }
 
 @font-face { 
     font-family: 'Molde_Semiexpanded_ultralight';
-    src: url(/fonts/Molde-SemiExpanded-UltraLight.ttf) format('truetype');
+    src: url(Fonts/Molde-SemiExpanded-UltraLight.ttf) format('truetype');
 
 }
 
 @font-face { 
     font-family: 'Molde_Semiexpanded_Medium';
-    src: url(portfolio/fonts/Molde-SemiExpanded-Medium.ttf) format('truetype');
+    src: url(Fonts/Molde-SemiExpanded-Medium.ttf) format('truetype');
 }
 /*DESKTOP*/
 @media (min-width: 1200px) {
